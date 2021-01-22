@@ -1,0 +1,10 @@
+body{background: black;}
+.post{background: white; width: 450px; height: 600px; position: absolute; top:10%; left: 35%;}
+img{width: 450px; height: 300px;}
+header{display: flex; justify-content: space-between;}
+header, .left-side{display: flex;}
+header, .buttons, .like-line, .post-content{padding: 8px;}
+.profile-name{display: flex; flex-direction: column;}
+.left-side{display:flex; justify-content: flex-start;}
+.right-side{display: flex; justify-content: flex-end;}
+.buttons{display: flex; justify-content: space-between;}
